@@ -1,5 +1,8 @@
-# CRUD Realizado para Trabajo de Universidad Andres Bello.
-# Grupo N°6 <br>
+# CRUD Realizado para Taller de Desarrollo Web (APTC106) de Universidad Andres Bello.
+# Grupo N°4 <br>
+• Rodolfo Guzman. <br>
+• Ivan Bastias. <br>
+• Camilo Ibarra. <br>
 # REQUISITOS DE INSTALACIÓN
 • Servidor XAMPP para levantar servicio de apache y MySql. <br>
 • Conexión al servidor apache levantado mediante consola.
