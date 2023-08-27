@@ -18,6 +18,11 @@ Descarga: https://github.com/camilone/restaurante_crud.git <br><br>
 
 <br>
 
+• Ejecución archivo BD_crud.sql <br>
+![image](https://github.com/camilone/restaurante_crud/assets/106820074/135d5ed3-445c-48bd-a388-b2a2e0503d55)
+
+<br>
+
 • Para finalizar ingresamos al proyecto mediante web:
 http://localhost/restaurante_crud/
 <br>
