@@ -13,3 +13,10 @@
 
 Descarga: https://github.com/camilone/restaurante_crud.git <br><br>
 ![image](https://github.com/camilone/restaurante_crud/assets/106820074/36f1d703-f251-4c4e-b104-7a51271b887b)
+
+![image](https://github.com/camilone/restaurante_crud/assets/106820074/a78671e9-b46e-4c90-931d-bd02a4e3c285)
+
+<br><br>
+
+• Para finalizar ingresamos al proyecto mediante web:
+http://localhost/restaurante_crud/
