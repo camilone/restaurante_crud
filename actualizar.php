@@ -20,26 +20,19 @@
       </select>
     </div>	
 
-  <form id="actualizar" action="Controladores/actualizarMenu.php" method="POST">
+  <form id="actualizar" action="Controladores/actualizarMenu.php" method="POST" enctype="multipart/form-data">
     <div class="mb-3">
       <label for="inputName" class="form-label">Nombre</label>
 	  <input type="hidden" class="form-control" name="idAct" id="idAct">
+	  <input type="hidden" class="form-control" name="idRestaurant" id="idRestaurant">
       <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre del Menú">
     </div>
     <div class="mb-3">
-      <label for="inputEmail" class="form-label">Restaurant</label>
-      <select class="form-select" id="idRestaurant" name="idRestaurant">
-        <option selected>Selecciona el Restaurant</option>
-        <option value="Delicias">Restaurant: Delicias</option>
-        <option value="Donde Miguel">Restaurant: Donde Miguel</option>
-        <option value="El Encuentro">Restaurant: El Encuentro</option>
-        <option value="Capriccio">Restaurant: Capriccio</option>
-      </select>
+      <label for="inputMessage" class="form-label">Menú</label>
+	  <br>
+      <input type="file" class="form-control-file" id="archivoMenu" name="archivoMenu" accept=".jpg, .jpeg, .png, .gif, .pdf">
     </div>
-    <div class="mb-3">
-      <label for="inputMessage" class="form-label">Descripción</label>
-      <textarea class="form-control" name="desc" id="desc" rows="10" placeholder="Describe tu menú"></textarea>
-    </div>
+	<br>
     <button type="submit" class="btn btn-primary">Actualizar</button>
 	<a href="http://localhost/CRUD/"><button type="button" class="btn btn-primary">Volver</button></a>
   </form>
@@ -84,7 +77,7 @@
 				$('#idAct').val(response.id);
 				$('#nombre').val(response.nombre);
 				$('#idRestaurant').val(response.restaurant);
-				$('#desc').html(response.descripcion);
+				//$('#desc').html(response.descripcion);
 			},
 			error: function(xhr, status, error) {
 				console.error(error);
@@ -104,7 +97,6 @@
       // setInterval(loadData, 5000); // Refresh data every 5 seconds
     });
 	
-
 	
   </script>
 

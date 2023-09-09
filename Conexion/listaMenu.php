@@ -15,7 +15,7 @@ if ($conn->connect_error)
 }
 
 // Fetch data from the database (example table name: users)
-$sql = "SELECT id, nombre FROM menu";
+$sql = "SELECT r.id, r.nombre FROM restaurant r INNER JOIN menu m ON m.restaurant = r.id";
 $result = $conn->query($sql);
 
 // Generate table rows

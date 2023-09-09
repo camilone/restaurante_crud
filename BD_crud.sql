@@ -24,13 +24,12 @@ CREATE TABLE `menu` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(20) DEFAULT NULL,
   `restaurant` varchar(20) DEFAULT NULL,
-  `descripcion` text DEFAULT NULL,
+  `qr_restaurant` text DEFAULT NULL,
+  `menu_restaurant` text DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 /*Data for the table `menu` */
-
-insert  into `menu`(`id`,`nombre`,`restaurant`,`descripcion`) values (2,'Nuevas Delicias','Delicias','--- Menú Nuevas Delicias ---<br><br>\r\n• Café & Torta (Variedades) - $4.000.-<br>\r\n• Café & Sándwich (Variedades) - $6.000.-<br>\r\n• Café & Torta (Variedades) - $5.000.-<br>\r\n• Pizza (Variedades) - $8.000.-<br>\r\n• Hamburguesa - $7.500.-<br>\r\n• Bebida (Variedades) - $8.000.-<br>');
 
 /*Table structure for table `restaurant` */
 
@@ -40,9 +39,11 @@ CREATE TABLE `restaurant` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 /*Data for the table `restaurant` */
+
+insert  into `restaurant`(`id`,`nombre`) values (1,'Delicias'),(2,'Donde Miguel'),(3,'El Encuentro'),(4,'Capriccio');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

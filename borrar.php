@@ -12,10 +12,10 @@
 <div class="container mt-5">
 <h1>Borrar Menú</h1>
 <br>
-  <form id="borrar" action="Controladores/borrarMenu.php" method="POST">
+  <form id="borrar" action="Controladores/borrarMenu.php" method="POST" onsubmit="return confirm('Estás seguro que quieres borrar este menú?');">
     <div class="mb-3">
       <label for="inputEmail" class="form-label">Restaurant</label>
-    <select id="id" name="id" class="form-select">
+    <select id="id" name="id" class="form-select" required>
       <option value="">Selecciona...</option>
       </select>
     </div>

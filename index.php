@@ -7,7 +7,7 @@
 <body>
 
 <div class="container mt-5">
-<h1>EJEMPLO CRUD</h1>
+<h1>MANTENEDOR DE MENÚ</h1>
 <div class="container mt-5">
   <h2>Opciones</h2>
   <br>
@@ -16,6 +16,7 @@
 	<li class="list-group-item"><a href="http://localhost/CRUD/ver.php">Ver Menú</a></li>
 	<li class="list-group-item"><a href="http://localhost/CRUD/actualizar.php">Actualizar Menú</a></li>
 	<li class="list-group-item"><a href="http://localhost/CRUD/borrar.php">Borrar Menú</a></li>
+	<li class="list-group-item"><a href="http://localhost/CRUD/swagger/Documentacion/" target="_blank">Documentación</a></li>
   </ul>
 </div>
 </div>

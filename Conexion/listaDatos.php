@@ -15,7 +15,7 @@ if ($conn->connect_error)
 }
 
 // Fetch data from the database (example table name: users)
-$sql = "SELECT id, nombre, restaurant, descripcion FROM menu WHERE id = ".$_POST['id']."";
+$sql = "SELECT id, nombre, restaurant FROM menu WHERE restaurant = ".$_POST['id']."";
 $result = $conn->query($sql);
 
 // Generate table rows
@@ -24,7 +24,6 @@ if ($result->num_rows > 0) {
 		$id = $row['id'];
 		$nombre = $row['nombre'];
 		$restaurant = $row['restaurant'];
-		$descripcion = $row['descripcion'];
     }
 } else {
     echo "<tr><td colspan='3'>No data available</td></tr>";
@@ -32,7 +31,7 @@ if ($result->num_rows > 0) {
 
 $conn->close();
 
-$data = array("id"=>$id,"nombre"=>$nombre,"restaurant"=>$restaurant,"descripcion"=>$descripcion);
+$data = array("id"=>$id,"nombre"=>$nombre,"restaurant"=>$restaurant);
 header('Content-Type: application/json');
 echo json_encode($data);
 ?>

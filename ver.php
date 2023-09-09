@@ -17,7 +17,7 @@
 </head>
 <body>
   <div class="container mt-5">
-  <h1>Borrar Menú</h1>
+  <h1>Ver Menú</h1>
   <br>
     <table id="myTable" class="table table-hover">
       <thead>
@@ -25,7 +25,8 @@
           <th>ID</th>
           <th>Nombre</th>
           <th>Restaurant</th>
-		  <th>Descripción</th>
+		  <th>Menú</th>
+		  <th>Código QR</th>
         </tr>
       </thead>
       <tbody>
@@ -44,7 +45,8 @@
           { "data": "id" },
           { "data": "nombre" },
           { "data": "restaurant" },
-		  { "data": "descripcion" }
+		  { "data": "menu" },
+		  { "data": "qr" }
         ]
       });
     });
