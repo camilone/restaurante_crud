@@ -11,7 +11,7 @@
 ![image](https://github.com/camilone/restaurante_crud/assets/106820074/dd164701-56b2-4c43-801c-8e2d905df0a3) <br><br>
 • Luego de tener ambos servicios de Xampp habilitados, descargamos el proyecto y ejecutamos archivo BD_crud.sql para la creación de la base de datos y sus tablas. <br><br>
 
-Descarga: https://github.com/camilone/restaurante_crud.git - https://github.com/camilone/restaurante_crud/releases/download/Release_v2.0/CRUD_v2.rar<br><br>
+Descarga: https://github.com/camilone/restaurante_crud/releases/download/Release_v2.0/CRUD_v2.rar<br><br>
 ![image](https://github.com/camilone/restaurante_crud/assets/106820074/36f1d703-f251-4c4e-b104-7a51271b887b)
 
 ![image](https://github.com/camilone/restaurante_crud/assets/106820074/a78671e9-b46e-4c90-931d-bd02a4e3c285)
